@@ -6,7 +6,7 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 export 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 /// Get font awesome icon by string name
-IconData? getFontAwesomeIcon({required String name}) => FontAwesomeIconsMap[name];
+IconData? getFontAwesomeIcon(String name) => FontAwesomeIconsMap[name];
 
 /// Icon data map for FontAwesome
 const Map<String, IconData> FontAwesomeIconsMap = <String, IconData>{
